@@ -30,11 +30,11 @@ def lambda_handler(event, context):
 
     #Connecting to the database
     conn=psycopg2.connect(
-        host= "dbira-atlassian-data-pipeline-database.cjheoiru200f.us-east-2.rds.amazonaws.com",
+        host= "host",
         port=5432,
-        user="hareesh",
-        password="hareesh_!#jiratrack#2023_db",
-        dbname="HAREESH"
+        user="user_id",
+        password="password",
+        dbname="database_name"
     )
 
     #creating the tables
