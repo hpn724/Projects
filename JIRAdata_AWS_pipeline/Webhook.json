@@ -1,0 +1,200 @@
+{
+    "timestamp": 1676186627475,
+    "webhookEvent": "jira:issue_deleted",
+    "user": {
+      "self": "https://hpn724.atlassian.net/rest/api/2/user?accountId=63d3570216dfc2b1fbcb20c4",
+      "accountId": "63d3570216dfc2b1fbcb20c4",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png"
+      },
+      "displayName": "ae20b027",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "issue": {
+      "id": "10017",
+      "self": "https://hpn724.atlassian.net/rest/api/2/10017",
+      "key": "UPVX-18",
+      "fields": {
+        "statuscategorychangedate": "2023-02-06T22:07:42.779+0530",
+        "issuetype": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/issuetype/10001",
+          "id": "10001",
+          "description": "Tasks track small, distinct pieces of work.",
+          "iconUrl": "https://hpn724.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "entityId": "42abd627-fae3-46f4-84f5-d8036e462146",
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "customfield_10031": null,
+        "project": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/project/10000",
+          "id": "10000",
+          "key": "UPVX",
+          "name": "UpVoxx",
+          "projectTypeKey": "software",
+          "simplified": true,
+          "avatarUrls": {
+            "48x48": "https://hpn724.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404",
+            "24x24": "https://hpn724.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=small",
+            "16x16": "https://hpn724.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+            "32x32": "https://hpn724.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=medium"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": "2023-02-06T22:07:42.776+0530",
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/issue/UPVX-18/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "issuerestriction": {
+          "issuerestrictions": {},
+          "shouldDisplay": true
+        },
+        "created": "2023-02-06T12:08:00.558+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://hpn724.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": "10000_*:*_1_*:*_18856_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_35963377",
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|hzzzzz:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2023-02-06T22:07:42.779+0530",
+        "status": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/status/10002",
+          "description": "",
+          "iconUrl": "https://hpn724.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://hpn724.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "attachment": [],
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Test_1",
+        "creator": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/user?accountId=63d3570216dfc2b1fbcb20c4",
+          "accountId": "63d3570216dfc2b1fbcb20c4",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png"
+          },
+          "displayName": "ae20b027",
+          "active": true,
+          "timeZone": "Asia/Kolkata",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/user?accountId=63d3570216dfc2b1fbcb20c4",
+          "accountId": "63d3570216dfc2b1fbcb20c4",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/b5b2566c2da2092d3f92cd19d7452017?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-1.png"
+          },
+          "displayName": "ae20b027",
+          "active": true,
+          "timeZone": "Asia/Kolkata",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "comment": {
+          "comments": [],
+          "self": "https://hpn724.atlassian.net/rest/api/3/issue/10017/comment",
+          "maxResults": 0,
+          "total": 0,
+          "startAt": 0
+        },
+        "votes": {
+          "self": "https://hpn724.atlassian.net/rest/api/2/issue/UPVX-18/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "worklog": {
+          "startAt": 0,
+          "maxResults": 20,
+          "total": 0,
+          "worklogs": []
+        }
+      }
+    }
+  }
