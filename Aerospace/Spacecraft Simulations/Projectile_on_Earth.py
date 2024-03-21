@@ -6,12 +6,13 @@ import scipy.integrate as sci
 
 ##defining some global variables 
 
-g0 = -9.81                              #acceleration due to gravity at surface
-mass = 600                              #mass of rocket in kilogram
-Planet_radius = 6371000                  #Radius of planet
-Planet_mass = 5.97219e24                  #Mass of planet
-Gravity_const = 6.67428*10**(-11)          #Universal gravitation constant
+g0 = -9.81                                  #acceleration due to gravity at surface
+mass = 600                                  #mass of rocket in kilogram
+Planet_radius = 6371000                     #Radius of planet
+Planet_mass = 5.97219e24                    #Mass of planet
+Gravity_const = 6.67428*10**(-11)           #Universal gravitation constant
 
+#Defining gravity as a function of altitude
 def gravity_acc(z):
     global Planet_mass, Planet_radius
 
@@ -22,7 +23,7 @@ def gravity_acc(z):
     return -g*(1+(z-Planet_radius)/Planet_radius)**-2
 
 
-#Equations of motion
+#Equations of motion - representing as derivatives of state variables
 def Derivatives(state, t):
     
     z = state[0]
@@ -46,8 +47,8 @@ def Derivatives(state, t):
     return statedot
 
 
-z0 = Planet_radius                                  #initial position
-velz0 = 25*331                                        #initial velocity
+z0 = Planet_radius                                        #initial position
+velz0 = 25*331                                            #initial velocity
 stateinitial = np.asarray([z0,velz0])
 
 #time window 
